@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test4(failed)">
+    <parameter name="eMail1" value="aaa@gmail.com"/>
+    <parameter name="address1" value="Chennai"/>
+    <parameter name="phoneNumber1" value="487847843"/>
+    <parameter name="name1" value="Aaaaa"/>
+    <classes>
+      <class name="org.toPassTheSingleSetOfDataUsingParameterizedTest.ParameterizedTest">
+        <methods>
+          <include name="parameterizedTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.toPassTheSingleSetOfDataUsingParameterizedTest.ParameterizedTest -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

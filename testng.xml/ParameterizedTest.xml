@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="name1" value="Aaaaa"></parameter>
+		<parameter name="eMail1" value="aaa@gmail.com"></parameter>
+		<parameter name="phoneNumber1" value="487847843"></parameter>
+		<parameter name="address1" value="Chennai"></parameter>
+		<classes>
+			<class name="org.toPassTheSingleSetOfDataUsingParameterizedTest.ParameterizedTest">
+				
+			</class>
+		</classes>
+	</test>
+</suite>
